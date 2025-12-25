@@ -13,7 +13,7 @@ ATS_KEYWORDS = [
 load_dotenv()
 st.set_page_config(page_title="AI Resume Critiquer", page_icon="📃", layout="centered")
 st.title("AI Resume Critiquer")
-st.markdown("Upload your resume and get AI-powered feedback tailored to your needs!")
+st.markdown("Upload your Resume and get AI-powered feedback tailored to your needs!")
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
